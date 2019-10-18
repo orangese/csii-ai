@@ -39,9 +39,10 @@ should show up. If that doesn't wok, try `python3 --version`.
 
 ### Mac:
 
-1. Go to https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download
-2. Double click on downloaded package and follow installation instructions. If you're not allowed to install the package because of Mac security reasons, go to System Preferences > Security & Privacy > General and open the `git` package anyway. 
-3. Verify using `git --version` in Terminal.
+1. You should already have `git`: check using `git --version`. If you get an error, skip to steps 2-4. Otherwise, if you get a prompt to install Xcode command line tools, select Yes and follow installation instructions-- don't do steps 2-4.
+2. Go to https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download
+3. Double click on downloaded package and follow installation instructions. If you're not allowed to install the package because of Mac security reasons, go to System Preferences > Security & Privacy > General and open the `git` package anyway. 
+4. Verify using `git --version` in Terminal.
 
 ### Windows:
 
@@ -52,7 +53,8 @@ __Important__: on the `Adjusting your PATH environment` installation screen, sel
 
 ### Linux:
 
-1. Enter `sudo apt-get install git` in Terminal and press Enter.
+1. Enter `sudo apt-get install git-all` in Terminal and press Enter.
+2. Enter `sudo apt-get install git` in Terminal and press Enter.
 2. Verify using `git --version` in Terminal.
 
 

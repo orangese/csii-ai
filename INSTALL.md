@@ -61,6 +61,6 @@ __Important__: on the `Adjusting your PATH environment` installation screen, sel
 ### Mac/Windows/Linux:
 
 1. Go to Terminal (or Command Prompt for Windows) and paste
-`pip3 install tensorflow`. If that doesn't work, replace `pip3` with `pip`.
+`python -m pip install tensorflow`. If that doesn't work, replace `python` with `python3`.
 2. Paste 
-`pip3 install "git+https://github.com/orangese/easyai.git"`. If that doesn't work, replace `pip3` with `pip`.
+`python -m pip install "git+https://github.com/orangese/easyai.git"`. If that doesn't work, replace `python` with `python3`.

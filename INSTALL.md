@@ -14,7 +14,7 @@ disregard this message.
 2. Double-click on the installed package and follow installation instructions. Select all default options and enter your 
 password if prompted.
 3. Go to Terminal and type `python --version` (then the Enter key) to verify installation. Python's current version
-should show up.
+should show up. If that doesn't wok, try `python3 --version`.
 
 ### Linux:
 
@@ -22,7 +22,7 @@ should show up.
 2. Type `sudo apt-get upgrade` (then the Enter key).
 3. Type `sudo apt-get install python3` (then the Enter key).
 4. Type and enter `sudo apt-get install python3-pip`.
-4. Go to Terminal and type `python --version` to verify installation. Python's current version should show up.
+4. Go to Terminal and type `python --version` to verify installation. Python's current version should show up. If that doesn't wok, try `python3 --version`.
 
 ### Windows:
 
@@ -31,7 +31,7 @@ should show up.
 __Important__: on the FIRST installation screen, select `Add Python 3.7 to PATH`. Otherwise, select all default options and 
 enter your password if prompted. 
 3. Go to Command Prompt and type `python --version` (then the Enter key) to verify installation. Python's current version
-should show up.
+should show up. If that doesn't wok, try `python3 --version`.
 
 
 ## 2. Installing `git`

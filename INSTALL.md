@@ -15,6 +15,7 @@ disregard this message.
 password if prompted.
 3. Go to Terminal and type `python --version` (then the Enter key) to verify installation. Python's current version
 should show up. If that doesn't wok, try `python3 --version`.
+4. Go to Applications in Finder and select Python. Double click on `Install Certificate.command` and then on `Update Shell Profile.command`.
 
 ### Linux:
 
@@ -38,17 +39,15 @@ should show up. If that doesn't wok, try `python3 --version`.
 
 ### Mac:
 
-1. Go to terminal and paste `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.
-Enter password and select default options for any prompts.
-2. Type `brew install git` in Terminal and press Enter. Follow instructions to download.
+1. Go to https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download
+2. Double click on downloaded package and follow installation instructions. If you're not allowed to install the package because of Mac security reasons, go to System Preferences > Security & Privacy > General and open the `git` package anyway. 
 3. Verify using `git --version` in Terminal.
 
 ### Windows:
 
 1. Go to https://git-scm.com/download/win
 2. Double click on the downloaded package and follow instructions. 
-__Important__: on the `Adjusting your PATH environment` installation screen, select Option 2 (`Use Git from the Windows Command 
-Prompt`). Otherwise, select all default options and enter your password if prompted. 
+__Important__: on the `Adjusting your PATH environment` installation screen, select Option 2 (`Use Git from the Windows Command Prompt`). Otherwise, select all default options and enter your password if prompted. 
 3. Verify using `git --version` in Command Prompt.
 
 ### Linux:

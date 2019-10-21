@@ -60,9 +60,18 @@ __Important__: on the `Adjusting your PATH environment` installation screen, sel
 
 ## 3. Installing `easyai`
 
-### Mac/Windows/Linux:
+### Mac/Linux:
 
 1. Go to Terminal (or Command Prompt for Windows) and paste
 `python -m pip install tensorflow`. If that doesn't work, replace `python` with `python3`.
 2. Paste 
 `python -m pip install "git+https://github.com/orangese/easyai.git"`. If that doesn't work, replace `python` with `python3`.
+
+### Windows:
+
+1. Try the steps given in the Mac/Linux section. If they fail, proceed to step 2.
+2. Open the Start menu and type “regedit.” Launch the application.
+3. Navigate to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+4. Right-click the value “LongPathsEnabled” and select Modify.
+5. Change “Value data” from 0 to 1 and click OK.
+6. Try step 1 again.

@@ -3,6 +3,8 @@
 This is a three step process-- first, you must install Python. Next, `git`, which makes installing `easyai` a lot easier.
 Finally, installing `easyai` using Python's package manager.
 
+How to use this guide: follow steps 1-3 for your appropriate operating system. These steps must be done in order and instructions must be followed to the letter, quite literally!
+
 __Important__: if you have Python 2.7 installed, use this guide to install Python 3! If you don't know if you have Python 2.7,
 disregard this message.
 

@@ -8,6 +8,9 @@ How to use this guide: follow steps 1-3 for your appropriate operating system. T
 __Important__: if you have Python 2.7 installed, use this guide to install Python 3! If you don't know if you have Python 2.7,
 disregard this message.
 
+__Important #2__: if you already installed `easyai`, please upgrade it by running `python -m pip install --upgrade "git+https://github.com/orangese/easyai.git"`. If that doesn't work, replace `python` with `python3`.
+
+
 ## 1. Installing Python
 
 ### Mac:

@@ -19,5 +19,5 @@ nn.evaluate(x_test, y_test)
 
 # interactive digit classifier!
 root = Tk()
-Draw(root, model)
+Draw(root, nn)
 Draw.run_root(root, title="MNIST")

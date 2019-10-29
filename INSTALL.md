@@ -80,3 +80,13 @@ __Important__: on the `Adjusting your PATH environment` installation screen, sel
 4. Right-click the value “LongPathsEnabled” and select Modify.
 5. Change “Value data” from 0 to 1 and click OK.
 6. Try step 1 again.
+
+## 4. Installing Atom
+
+We're using it to code! 
+
+### Mac/Linux/Windows
+
+1. Go to https://atom.io/
+2. Click "Download" and install the package by double-clicking once downloaded.
+1. https://atom.io/
